@@ -1,8 +1,10 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Categories = () => (
   <>
-    <h1> Under Construction</h1>
+    <NavBar />
+    <button type="button"> Check status </button>
   </>
 );
 

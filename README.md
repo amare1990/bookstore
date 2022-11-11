@@ -21,7 +21,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-You need to have `node`, `npm` installed,
+You need to have `node`, `npm` installed in your pc.
 
 ### Setup
 In the Github, use `Gitflow` workflow and create a development branch, make it default and then create another branch on which you are going to work.
