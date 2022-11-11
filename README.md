@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> The objective of this `Bookstore` project milestone, `Initializing the project with components` is to setup the React project with `CRA` cli, and create componenets to be used in the next milestones of the project. React is used to create the major componenets of the project to be used for the upcoming milestone of the project.
+> The objective of this `Bookstore` project milestone, `Initializing the project with components` is to setup the React project with `CRA` cli, and create componenets to be used in the next milestones of the project. React is used to create the major components of the project to be used for the upcoming milestone of the project.
 
 
 ## Built With
@@ -63,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/amare1990/bookstore/LICENSE) licensed.
+This project is [MIT](https://github.com/amare1990/bookstore/.LICENSE) licensed.
