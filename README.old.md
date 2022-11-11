@@ -1,62 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bookstore
 
-> Description the project.
+> The objective of this `Bookstore` project milestone, `Initializing the project with components` is to setup the React project with `CRA` cli, and create componenets to be used in the next milestones of the project. React is used to create the major componenets of the project to be used for the upcoming milestone of the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: JavaScript.
+- Frameworks: React library.
+- Technologies used: Git, Github, Gitflow, linters, VS code, npm, etc.
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**You can clone `git clone https://github.com/amare1990/bookstore.git`, work on this repo, and contribute to this project freely using the command**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You need to have `node`, `npm` installed,
 
 ### Setup
+In the Github, use `Gitflow` workflow and create a development branch, make it default and then create another branch on which you are going to work.
 
 ### Install
+Use `create-create-app .` to install the react inside this repository.
 
 ### Usage
-
-### Run tests
+In the root directory of the project, run `npm start` to see the project in the development mode.
 
 ### Deployment
-
+Use  `npm run build` to build the project in the production mode. Then after, it will be ready to be deployed.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Amare Kassa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/amare1990)
+- Twitter: [@twitterhandle](https://twitter.com/@amaremek)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amare-kassa-90)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/amare1990/bookstore/issues/).
 
 ## Show your support
 
@@ -70,6 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/amare1990/bookstore/LICENSE) licensed.
