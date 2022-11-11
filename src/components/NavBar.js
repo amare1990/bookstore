@@ -1,20 +1,15 @@
-import React from "react";
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-class NavBar extends React.Component {
+const NavBar = () => (
+  <header className="header">
+    <h1>Bookstore CMS</h1>
+    <ul className="nav-bar">
+      <NavLink to="/" className={({ isActive }) => (isActive ? 'kk' : undefined)}>BOOKS</NavLink>
+      <NavLink to="/Categories" className={({ isActive }) => (isActive ? 'kk' : undefined)}>CATEGORIES</NavLink>
+    </ul>
 
-  render() {
-    return (
-      <header className="header">
-        <h1>Bookstore CMS</h1>
-        <ul className="nav-bar">
-          <NavLink to="/" className={({ isActive }) => (isActive ? isActive : undefined)}>BOOKS</NavLink>
-          <NavLink to="/Categories" className={({ isActive }) => (isActive ? isActive : undefined)}>CATEGORIES</NavLink>
-        </ul>
-
-      </header>
-    );
-  }
-}
+  </header>
+);
 
 export default NavBar;
