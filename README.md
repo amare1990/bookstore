@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bookstore
 
-## Available Scripts
+> The objective of this `Bookstore` project milestone, `Initializing the project with components` is to setup the React project with `CRA` cli, and create componenets to be used in the next milestones of the project. React is used to create the major componenets of the project to be used for the upcoming milestone of the project.
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Major languages: JavaScript.
+- Frameworks: React library.
+- Technologies used: Git, Github, Gitflow, linters, VS code, npm, etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+**You can clone `git clone https://github.com/amare1990/bookstore.git`, work on this repo, and contribute to this project freely using the command**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+You need to have `node`, `npm` installed,
 
-### `npm run eject`
+### Setup
+In the Github, use `Gitflow` workflow and create a development branch, make it default and then create another branch on which you are going to work.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install
+Use `create-create-app .` to install the react inside this repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
+In the root directory of the project, run `npm start` to see the project in the development mode.
 
 ### Deployment
+Use  `npm run build` to build the project in the production mode. Then after, it will be ready to be deployed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Amare Kassa**
+
+- GitHub: [@githubhandle](https://github.com/amare1990)
+- Twitter: [@twitterhandle](https://twitter.com/@amaremek)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amare-kassa-90)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/amare1990/bookstore/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](https://github.com/amare1990/bookstore/LICENSE) licensed.
