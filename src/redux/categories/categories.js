@@ -1,5 +1,5 @@
 // Constatnts
-const CHECK_STATUS = '/bookstore/src/redux/categories/checkStatus';
+const CHECK_STATUS = 'bookstore/src/redux/categories/checkStatus';
 
 const initialState = [];
 
