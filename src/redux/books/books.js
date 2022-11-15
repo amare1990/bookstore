@@ -5,7 +5,7 @@ const REMOVE_BOOK = 'bookstore/src/redux/books/removeBOOK';
 // reducers
 export default function booksReducer(state = [], action) {
   switch (action.type) {
-    case ADD_BOOK :
+    case ADD_BOOK:
       return [
         ...state,
         {
@@ -23,16 +23,12 @@ export default function booksReducer(state = [], action) {
 
 // Action creators
 
-export const addBook = () => {
-  return {
-    type: ADD_BOOK,
-    book: {id: 0, title: 'Operating Systems', author: 'xxx'}
-  };
-};
+export const addBook = () => ({
+  type: ADD_BOOK,
+  book: { id: 0, title: 'Operating Systems', author: 'xxx' },
+});
 
-export const removeBook = () => {
-  return {
-    type: REMOVE_BOOK,
-    payload: 'Removed'
-  };
-};
+export const removeBook = () => ({
+  type: REMOVE_BOOK,
+  payload: 'Removed',
+});
