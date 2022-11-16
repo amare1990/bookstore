@@ -1,10 +1,11 @@
 // Constatnts
-const CHECK_STATUS = '/bookstore/src/redux/categories/checkStatus';
+const CHECK_STATUS = 'bookstore/src/redux/categories/checkStatus';
 
 const initialState = [];
 
-export const checkStatus = () => ({
+export const checkStatus = (payload) => ({
   type: CHECK_STATUS,
+  payload,
 });
 
 // reducers

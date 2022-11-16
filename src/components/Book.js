@@ -1,37 +1,38 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
-class Book extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Book = () => {
+  // const { books } = this.props;
+  const dispatch = useDispatch();
+  const handleRemove = (id) => {
+    dispatch(removeBook(id));
+  };
+  const books = useSelector((state) => state.books);
 
-  render() {
-    const { books } = this.props;
-    return (
-      <>
+  return (
+    <>
 
-        { books.map((book) => (
-          <li key={book.id}>
-            {book.title}
-            {' '}
-            {book.author}
-            {' '}
-            <button type="button">Remove</button>
-          </li>
-        ))}
+      { books.map((book) => (
+        <li key={book.id}>
+          {book.title}
+          {' '}
+          {book.author}
+          {' '}
+          <button type="button" onClick={() => handleRemove(book.id)}>Remove</button>
+        </li>
+      ))}
 
-      </>
-    );
-  }
-}
+    </>
+  );
+};
 
 Book.defaultProps = {
   books: [],
 };
 
-Book.propTypes = {
+/* Book.propTypes = {
   books: Number,
-};
+}; */
 
 export default Book;
