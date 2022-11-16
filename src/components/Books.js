@@ -14,11 +14,7 @@ class Books extends React.Component {
       <div className="books-wrapper">
         <NavBar />
         <ul>
-          <Book books={[
-            { id: 1, title: 'Operating Systems', author: 'Amare Kassa' },
-            { id: 2, title: 'Computer Security', author: 'Shirodinger' },
-          ]}
-          />
+          <Book />
         </ul>
 
         <InputBook />
