@@ -3,7 +3,9 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
-// const initialId = 0;
+/* Generating app-id for  curl -X POST -d 'name=Amare' 
+https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/ 
+And was found to be SSn5lljqiXcoSQyQzIb4 */
 
 const InputBook = () => {
   const [title, setTitle] = useState('');
