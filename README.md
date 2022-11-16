@@ -2,13 +2,13 @@
 
 # Bookstore
 
-> The objective of this `Bookstore` project milestone, `Initializing the project with components` is to setup the React project with `CRA` cli, and create componenets to be used in the next milestones of the project. React is used to create the major components of the project to be used for the upcoming milestone of the project.
+> The objective of this `Bookstore` project milestone, `Using reducers in components` is to connect the React components with `Redux store`. The react component re-renders based on tghe sate change from the centrally stored `Redux store1. Redux is used to manage the state of the application and it stores the state in one place centrally.
 
 
 ## Built With
 
 - Major languages: JavaScript.
-- Frameworks: React library.
+- Frameworks: React library, Redux.
 - Technologies used: Git, Github, Gitflow, linters, VS code, npm, etc.
 
 
@@ -28,6 +28,7 @@ In the Github, use `Gitflow` workflow and create a development branch, make it d
 
 ### Install
 Use `create-create-app .` to install the react inside this repository.
+Use `npm install react-redux @reduxjs/toolkit` to install redux and the ui binding library for the project already created using `create-create-app`
 
 ### Usage
 In the root directory of the project, run `npm start` to see the project in the development mode.
