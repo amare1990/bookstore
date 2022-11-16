@@ -9,7 +9,7 @@ import checkStatusReducer from './categories/categories';
 
 const store = configureStore({
   reducer:
-  { books: booksReducer, category: checkStatusReducer },
+  { books: booksReducer, categories: checkStatusReducer },
 });
 
 export default store;

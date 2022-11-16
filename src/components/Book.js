@@ -1,9 +1,15 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
 const Book = () => {
   // const { books } = this.props;
+  const dispatch = useDispatch();
+  const handleRemove = (id) => {
+    dispatch(removeBook(id));
+  };
   const books = useSelector((state) => state.books);
+
   return (
     <>
 
@@ -13,7 +19,7 @@ const Book = () => {
           {' '}
           {book.author}
           {' '}
-          <button type="button">Remove</button>
+          <button type="button" onClick={() => handleRemove(book.id)}>Remove</button>
         </li>
       ))}
 

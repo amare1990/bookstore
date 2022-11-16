@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-// import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
-const initialId = 0;
+// const initialId = 0;
 
 const InputBook = () => {
   const [title, setTitle] = useState('');
@@ -12,7 +12,7 @@ const InputBook = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newBook = {
-      id: initialId + 1,
+      id: uuidv4(),
       title,
       author,
     };
