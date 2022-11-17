@@ -1,6 +1,7 @@
 // Constants
 const ADD_BOOK = 'bookstore/src/redux/books/addBook';
 const REMOVE_BOOK = 'bookstore/src/redux/books/removeBOOK';
+const LOAD_BOOKS = 'books/LOAD_BOOKS';
 
 // Action creators
 /* const initialBook = [
@@ -12,6 +13,11 @@ const REMOVE_BOOK = 'bookstore/src/redux/books/removeBOOK';
 export const addBook = (book) => ({
   type: ADD_BOOK,
   payload: book,
+});
+
+export const loadBooks = (books) => ({
+  type: LOAD_BOOKS,
+  books,
 });
 
 export const removeBook = (id) => ({
@@ -28,6 +34,15 @@ export default function booksReducer(state = [], action) {
       return state.filter((book) => book.id !== action.payload);
       /* return state.slice(0, action.payload)
       .concat(state.slice(action.payload + 1, state.length)); */
+    case LOAD_BOOKS:
+      const bookList = [];
+      Object.entries(action.books).forEach(([key, value]) => bookList.push({
+        item_id: key,
+        title: value[0].title,
+        author: value[0].author,
+        category: value[0].category,
+      }));
+      return [...bookList];
     default:
       return state;
   }
