@@ -1,17 +1,16 @@
 // Constants
 const ADD_BOOK = 'bookstore/src/redux/books/addBook';
 const REMOVE_BOOK = 'bookstore/src/redux/books/removeBOOK';
-
-// Action creators
-/* const initialBook = [
-  { id: 0, title: 'Operating Systems', author: 'xxx' },
-  { id: 1, title: 'Computer Architecture', author: 'william Stallings' },
-  { id: 2, title: 'Software Engineering', author: 'Robert Mitchil' },
-]; */
+const RETRIEVE_BOOKS = 'books/RETRIEVE_BOOKS';
 
 export const addBook = (book) => ({
   type: ADD_BOOK,
   payload: book,
+});
+
+export const retrieveBooks = (books) => ({
+  type: RETRIEVE_BOOKS,
+  books,
 });
 
 export const removeBook = (id) => ({
@@ -19,15 +18,25 @@ export const removeBook = (id) => ({
   payload: id,
 });
 
-// reducers
+// reducer
 export default function booksReducer(state = [], action) {
+  const bookArray = [];
+  const { books } = action;
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.payload];
     case REMOVE_BOOK:
-      return state.filter((book) => book.id !== action.payload);
-      /* return state.slice(0, action.payload)
-      .concat(state.slice(action.payload + 1, state.length)); */
+      return state.filter((book) => book.item_id !== action.payload);
+    case RETRIEVE_BOOKS:
+      Object.keys(books).forEach((key) => {
+        bookArray.push({
+          item_id: key,
+          title: books[key][0].title,
+          author: books[key][0].author,
+          category: books[key][0].category,
+        });
+      });
+      return [...bookArray];
     default:
       return state;
   }
