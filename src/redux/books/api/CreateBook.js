@@ -1,11 +1,11 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import FETCH_BOOK_URL from '../../../http-common';
+import url from '../../../http-common';
 import { addBook } from '../books';
 
-const CREATE_BOOK = 'books/POST_BOOK';
+const CREATE_BOOK = 'books/CREATE_BOOK';
 
 const createBook = createAsyncThunk(CREATE_BOOK, async (book, thunkAPI) => {
-  const response = await fetch(FETCH_BOOK_URL, {
+  const response = await fetch(url, {
     method: 'POST',
     body: JSON.stringify(book),
     headers: {

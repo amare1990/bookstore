@@ -1,16 +1,15 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import FETCH_BOOK_URL from '../../../http-common';
-import { loadBooks } from '../books';
+import url from '../../../http-common';
 
 const RETRIVE_BOOKS = 'books/RETRIEVE_BOOK';
 
 const retrieveBooks = createAsyncThunk(RETRIVE_BOOKS, async (_, thunkAPI) => {
-  const response = await fetch(FETCH_BOOK_URL, {
+  const response = await fetch(url, {
     method: 'GET',
   });
   const responseJSON = await response.json();
 
-  thunkAPI.dispatch(loadBooks(responseJSON));
+  thunkAPI.dispatch(retrieveBooks(responseJSON));
   return responseJSON;
 });
 
