@@ -3,8 +3,8 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
-/* Generating app-id for  curl -X POST -d 'name=Amare' 
-https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/ 
+/* Generating app-id for  curl -X POST -d 'name=Amare'
+https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/
 And was found to be SSn5lljqiXcoSQyQzIb4 */
 
 const InputBook = () => {
