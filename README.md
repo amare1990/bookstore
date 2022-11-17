@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> The objective of this `Bookstore` project milestone, `Using reducers in components` is to connect the React components with `Redux store`. The react component re-renders based on the sate change from the centrally stored `Redux store`. Redux is used to manage the state of the application and it stores the state in one place centrally.
+> The objective of this `Bookstore` project milestone, `Connect to API` is store book to the API, fetch books from the API and remove book both from the API and screen. The react component re-renders based on the sate change from the centrally stored `Redux store`. Redux is used to manage the state of the application and it stores the state in one place centrally. Again `createASyncThunk` thunk function is used to implement the three functionalities of API (posting, fetching, and removing a book).
 
 
 ## Built With
