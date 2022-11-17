@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import FETCH_BOOK_URL from '../../endpoint';
+import FETCH_BOOK_URL from '../../../http-common';
 import { addBook } from '../books';
 
 const CREATE_BOOK = 'books/POST_BOOK';

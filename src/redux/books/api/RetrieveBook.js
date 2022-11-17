@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import FETCH_BOOK_URL from '../../../../http-common';
+import FETCH_BOOK_URL from '../../../http-common';
 import { loadBooks } from '../books';
 
 const RETRIVE_BOOKS = 'books/RETRIEVE_BOOK';

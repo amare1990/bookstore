@@ -25,8 +25,9 @@ export const removeBook = (id) => ({
   payload: id,
 });
 
-// reducers
+// reducer
 export default function booksReducer(state = [], action) {
+  const bookList = [];
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.payload];
@@ -35,7 +36,6 @@ export default function booksReducer(state = [], action) {
       /* return state.slice(0, action.payload)
       .concat(state.slice(action.payload + 1, state.length)); */
     case LOAD_BOOKS:
-      const bookList = [];
       Object.entries(action.books).forEach(([key, value]) => bookList.push({
         item_id: key,
         title: value[0].title,

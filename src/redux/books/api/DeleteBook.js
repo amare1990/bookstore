@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import FETCH_BOOK_URL from '../../../../http-common';
+import FETCH_BOOK_URL from '../../../http-common';
 import { removeBook } from '../books';
 
 const DELETE_BOOK = 'books/DELETE_BOOK';
