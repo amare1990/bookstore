@@ -11,11 +11,13 @@ class Books extends React.Component {
 
   render() {
     return (
-      <div className="books-wrapper">
+      <div className="main-wrapper">
         <NavBar />
-        <ul>
+        <ul className="books-wrapper">
           <Book />
         </ul>
+
+        <div className="end-of-book-lists-divider" />
 
         <InputBook />
 
