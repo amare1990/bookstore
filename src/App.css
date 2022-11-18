@@ -235,3 +235,21 @@ letter-spacing: -.2px;
 font-weight: 300;
 color: #4386bf;
 }
+
+.btn {
+  font-family: "Roboto Slab",serif;
+background-color: transparent;
+border: none;
+color: #4386bf;
+font-size: .875rem;
+font-weight: 300;
+align-items: center;
+cursor: pointer;
+}
+
+.vertical-divider {
+  width: .125rem;
+height: 1.5rem;
+background-color: #e8e8e8;
+margin: 0 1rem;
+}
