@@ -115,9 +115,13 @@
 .App {
   display: flex;
   width: 100%;
-  height: calc(100vh - 52px);
+  height: auto;
   text-align: center;
   background-color: var(--pale-grey);
+}
+
+.main-wrapper {
+  height: 100%;
 }
 
 .header {
@@ -128,6 +132,7 @@
   background-color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -174,6 +179,35 @@
   line-height: normal;
   letter-spacing: 1.9px;
   color: var(--black-two);
+}
+
+.ico-container {
+  cursor: pointer;
+width: 2.813rem;
+height: 2.813rem;
+border-radius: 50%;
+border: 1px solid #e8e8e8;
+background-color: #fff;
+}
+
+.user-icon {
+  /* font-family: 'Material Icons'; */
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+/*   -moz-font-feature-settings: 'liga'; */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.primary-color {
+  color: #0290ff;
 }
 
 .books-wrapper {
@@ -252,4 +286,152 @@ cursor: pointer;
 height: 1.5rem;
 background-color: #e8e8e8;
 margin: 0 1rem;
+}
+
+.progress {
+  display: flex;
+align-items: center;
+}
+
+.progress-circle-container {
+  width: 5.625rem;
+height: 5.625rem;
+padding: .63rem .625rem .75rem .75rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.progress-circular {
+  position: absolute;
+border-radius: 50%;
+width: 4.25rem;
+height: 4.25rem;
+border: 5px solid #307bbe;
+  border-left-color: rgb(48, 123, 190);
+border-left-color: #e8e8e8;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.percentage, .status {
+  font-family: "Montserrat",sans-serif;
+color: #121212;
+}
+
+.percentage {
+  font-size: 2rem;
+}
+
+.status {
+  font-size: .875rem;
+opacity: .5;
+}
+
+.vertical-bar-progress {
+  width: .125rem;
+height: 4.375rem;
+margin: 0 3.688rem 0 4.938rem;
+background-color: #e8e8e8;
+}
+
+.chapter-card {
+  display: flex;
+flex-direction: column;
+gap: 20px;
+width: 14rem;
+}
+
+.current-chapter, .chapter {
+  font-family: "Roboto Slab",serif;
+font-weight: 300;
+color: #121212;
+}
+
+.current-chapter {
+  font-size: .813rem;
+opacity: .5;
+margin-top: .438rem;
+font-size: 1rem;
+letter-spacing: -.4px;
+}
+
+.update-chapter-btn {
+  cursor: pointer;
+border: none;
+background-color: #0290ff;
+border-radius: 3px;
+padding: 8px 24px;
+font-family: "Roboto Slab",serif;
+font-weight: 300;
+letter-spacing: .5px;
+color: #fff;
+}
+
+.end-of-book-lists-divider {
+  height: .125rem;
+background-color: #e8e8e8;
+width: 100%;
+margin: 2.5rem 0 1.813rem;
+}
+
+/* Beginning of Add Book form */
+
+.form-title {
+  font-size: 1.25rem;
+font-weight: 700;
+letter-spacing: -.18px;
+color: #888;
+}
+
+.form {
+  margin-top: 20px;
+display: flex;
+grid-gap: 32px;
+gap: 32px; 
+align-items: center;
+justify-content: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.input {
+  padding: 12px;
+border-radius: 4px;
+border: 1px solid #e8e8e8;
+background-color: #fff;
+font-size: 1rem;
+letter-spacing: -.15px;
+color: #121212;
+}
+
+.title-input, .author-input {
+  width: 50%;
+}
+
+.category-input {
+  width: 30%;
+}
+
+.submit-btn {
+  cursor: pointer;
+width: 20%;
+padding: 12px;
+border-radius: 3px;
+background-color: #0290ff;
+border: none;
+letter-spacing: .5px;
+color: #fff;
+font-size: .813rem;
+font-weight: 700;
+font-family: "Roboto Slab",serif;
+}
+
+.form-title, .input {
+  font-family: "Montserrat",sans-serif;
 }
