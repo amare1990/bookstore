@@ -1,39 +1,197 @@
+:root {
+  --yellow: #fecf33;
+  --yellow-15pc: rgba(254, 207, 51, 0.15);
+  --yellow-20pc: rgba(254, 207, 51, 0.2);
+  --yellow-30pc: rgba(254, 207, 51, 0.3);
+  --yellow-99pc: rgba(254, 207, 51, 0.99);
+  --pale-orange: #ffcb03;
+  --pale-grey: #f5f6fa;
+  --azure: #0290ff;
+  --black-two: #121212;
+  --light-orange: #fdbd39;
+  --light-orange-15pc: rgba(253, 189, 57, 0.15);
+  --light-orange-30pc: rgba(253, 189, 57, 0.3);
+  --light-orange-50pc: rgba(253, 189, 57, 0.5);
+  --light-orange-99pc: rgba(253, 189, 57, 0.99);
+  --orange: #f69833;
+  --orange-15pc: rgba(246, 152, 51, 0.15);
+  --orange-20pc: rgba(246, 152, 51, 0.2);
+  --orange-30pc: rgba(246, 152, 51, 0.3);
+  --orange-99pc: rgba(246, 152, 51, 0.99);
+  --peach: #ee6723;
+  --peach-15pc: rgba(238, 103, 35, 0.15);
+  --peach-20pc: rgba(238, 103, 35, 0.2);
+  --peach-30pc: rgba(238, 103, 35, 0.3);
+  --peach-60pc: rgba(238, 103, 35, 0.6);
+  --peach-70pc: rgba(238, 103, 35, 0.7);
+  --peach-85pc: rgba(238, 103, 35, 0.85);
+  --peach-99pc: rgba(238, 103, 35, 0.99);
+  --grapefruit: #f50;
+  --green: #c8cf2d;
+  --green-15pc: rgba(200, 207, 45, 0.15);
+  --green-20pc: rgba(200, 207, 45, 0.2);
+  --green-30pc: rgba(200, 207, 45, 0.3);
+  --green-50pc: rgba(200, 207, 45, 0.5);
+  --green-60pc: rgba(200, 207, 45, 0.6);
+  --green-99pc: rgba(200, 207, 45, 0.99);
+  --turquoise: #0dcfda;
+  --turquoise-15pc: rgba(13, 207, 218, 0.15);
+  --turquoise-20pc: rgba(13, 207, 218, 0.2);
+  --turquoise-30pc: rgba(13, 207, 218, 0.3);
+  --turquoise-40pc: rgba(13, 207, 218, 0.4);
+  --turquoise-60pc: rgba(13, 207, 218, 0.6);
+  --turquoise-99pc: rgba(13, 207, 218, 0.99);
+  --cornflower-blue: #419bf9;
+  --cornflower-blue-10pc: rgba(65, 154, 249, 0.1);
+  --cornflower-blue-15pc: rgba(65, 154, 249, 0.15);
+  --cornflower-blue-20pc: rgba(65, 154, 249, 0.2);
+  --cornflower-blue-30pc: rgba(65, 154, 249, 0.3);
+  --cornflower-blue-40pc: rgba(65, 154, 249, 0.4);
+  --cornflower-blue-50pc: rgba(65, 154, 249, 0.5);
+  --cornflower-blue-60pc: rgba(65, 154, 249, 0.6);
+  --cornflower-blue-90pc: rgba(65, 154, 249, 0.9);
+  --cornflower-blue-99pc: rgba(65, 154, 249, 0.99);
+  --whitey: #f7f7f7;
+  --whitey-30pc: rgba(247, 247, 247, 0.3);
+  --whitey-50pc: rgba(247, 247, 247, 0.5);
+  --whitey-90pc: rgba(247, 247, 247, 0.9);
+  --snowman: #fbfbfb;
+  --white-1pc: rgba(255, 255, 255, 0.01);
+  --white-20pc: rgba(255, 255, 255, 0.2);
+  --white-30pc: rgba(255, 255, 255, 0.3);
+  --white-40pc: rgba(255, 255, 255, 0.4);
+  --white-50pc: rgba(255, 255, 255, 0.5);
+  --white-60pc: rgba(255, 255, 255, 0.6);
+  --white-70pc: rgba(255, 255, 255, 0.7);
+  --white-80pc: rgba(255, 255, 255, 0.8);
+  --white-90pc: rgba(255, 255, 255, 0.9);
+  --white-95pc: rgba(255, 255, 255, 0.95);
+  --karl: #edeced;
+  --gandalf: #979197;
+  --gandalf-15pc: rgba(151, 145, 151, 0.15);
+  --gandalf-20pc: rgba(151, 145, 151, 0.2);
+  --gandalf-25pc: rgba(151, 145, 151, 0.25);
+  --gandalf-30pc: rgba(151, 145, 151, 0.3);
+  --gandalf-50pc: rgba(151, 145, 151, 0.5);
+  --gandalf-60pc: rgba(151, 145, 151, 0.6);
+  --clooney: #c1bec1;
+  --clooney-10pc: rgba(193, 190, 193, 0.1);
+  --clooney-20pc: rgba(193, 190, 193, 0.2);
+  --clooney-30pc: rgba(193, 190, 193, 0.3);
+  --clooney-40pc: rgba(193, 190, 193, 0.4);
+  --clooney-50pc: rgba(193, 190, 193, 0.5);
+  --teflon: #554d56;
+  --teflon-10pc: rgba(85, 77, 86, 0.1);
+  --teflon-15pc: rgba(85, 77, 86, 0.15);
+  --teflon-20pc: rgba(85, 77, 86, 0.2);
+  --teflon-25pc: rgba(85, 77, 86, 0.25);
+  --teflon-30pc: rgba(85, 77, 86, 0.3);
+  --teflon-40pc: rgba(85, 77, 86, 0.4);
+  --teflon-50pc: rgba(85, 77, 86, 0.5);
+  --teflon-60pc: rgba(85, 77, 86, 0.6);
+  --teflon-70pc: rgba(85, 77, 86, 0.7);
+  --deep-purple: #db7cee;
+  --deep-purple-15pc: rgba(219, 124, 238, 0.15);
+  --deep-purple-20pc: rgba(219, 124, 238, 0.2);
+  --deep-purple-30pc: rgba(219, 124, 238, 0.3);
+  --deep-purple-99pc: rgba(219, 124, 238, 0.99);
+  --jade: #24b36b;
+  --code-bg: #474e5d;
+  --code-bg-95pc: rgba(71, 78, 93, 0.95);
+  --code-red: #ff757d;
+  --code-green: #c3ff5b;
+  --code-blue: #27f4ff;
+  --code-yellow: var(--yellow);
+  --code-gray: var(--warm-gray);
+  --middle-gray: #eae8ea;
+  --earth: #a2573a;
+  --warm-gray: #bcb5b9;
+  --warm-gray-70pc: rgba(188, 181, 185, 0.7);
+  --warm-gray-60pc: rgba(12, 10, 11, 0.6);
+  --warm-gray-50pc: rgba(188, 181, 185, 0.5);
+  --warm-gray-30pc: rgba(188, 181, 185, 0.3);
+}
+
 .App {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 52px);
   text-align: center;
+  background-color: var(--pale-grey);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  width: 87.5rem;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+
+  /*  font-family: Roboto, Montserrat; */
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--azure);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.book-link {
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+
+  /* font-family: Roboto, Montserrat; */
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.category-link {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
+  opacity: 0.5;
+
+  /* font-family: Roboto, Montserrat; */
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.books-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.book-card {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.book-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
