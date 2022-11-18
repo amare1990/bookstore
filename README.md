@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> The objective of this `Bookstore` project milestone, `Connect to API` is store book to the API, fetch books from the API and remove book both from the API and screen. The react component re-renders based on the sate change from the centrally stored `Redux store`. Redux is used to manage the state of the application and it stores the state in one place centrally. Again `createASyncThunk` thunk function is used to implement the three functionalities of API (posting, fetching, and removing a book).
+> The objective of this `Bookstore` project milestone, `Styling` is to add CSS styles to the `Bookstore` project I have been doing for the last week. As this project, `Bookstore` is developed using react, react component re-renders based on the sate change from the centrally stored `Redux store`. Basically this project is a `react-redux` web application project where rendering is done using react components and the state of the application is centrally manged by the `Redux` stat-UI binding framework. Redux is used to manage the state of the application and it stores the state in one place centrally. Again `createASyncThunk` thunk function is used to implement the three functionalities of API (posting, fetching, and removing a book).
 
 
 ## Built With
@@ -10,7 +10,6 @@
 - Major languages: JavaScript.
 - Frameworks: React library, Redux.
 - Technologies used: Git, Github, Gitflow, linters, VS code, npm, etc.
-
 
 
 ## Getting Started
@@ -21,7 +20,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-You need to have `node`, `npm` installed in your pc.
+You need to have `node`, `npm`, `git` installed in your pc.
 
 ### Setup
 In the Github, use `Gitflow` workflow and create a development branch, make it default and then create another branch on which you are going to work.
