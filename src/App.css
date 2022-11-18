@@ -76,6 +76,7 @@
 .ico-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   width: 2.813rem;
   height: 2.813rem;
