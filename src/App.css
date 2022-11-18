@@ -1,7 +1,7 @@
 :root {
   --pale-grey: #f5f6fa;
   --azure: #0290ff;
-  --black-two: #121212;  
+  --black-two: #121212;
 }
 
 .App {
@@ -19,7 +19,7 @@
 }
 
 .header {
- width: 100%;
+  width: 100%;
   height: 5.938rem;
   margin: 2rem auto;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
@@ -77,11 +77,11 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-width: 2.813rem;
-height: 2.813rem;
-border-radius: 50%;
-border: 1px solid #e8e8e8;
-background-color: #fff;
+  width: 2.813rem;
+  height: 2.813rem;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
 }
 
 .user-icon {
@@ -121,91 +121,92 @@ background-color: #fff;
   text-align: center;
   align-items: center;
   justify-content: center;
-  display: flex;
-flex-direction: column;
-width: 100%;
+  width: 100%;
 }
 
 .btn-group {
   display: flex;
-align-items: center;
-margin-top: 1.313rem;
+  align-items: center;
+  margin-top: 1.313rem;
 }
 
-.book-category, .book-title {
+.book-category,
+.book-title {
   font-weight: 700;
-color: #121212;
+  color: #121212;
 }
 
 .book-category {
-  font-family: "Montserrat",sans-serif;
-font-size: .875rem;
-opacity: .5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.5;
 }
 
-.book-author, .book-title {
-  font-family: "Roboto Slab",serif;
+.book-author,
+.book-title {
+  font-family: "Roboto Slab", serif;
 }
 
 .book-title {
-  margin-top: .188rem;
-font-size: 1.375rem;
-letter-spacing: -.2px;
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
 }
 
 .book-author {
-  font-size: .875rem;
-font-weight: 300;
-color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
 }
 
 .btn {
-  font-family: "Roboto Slab",serif;
-background-color: transparent;
-border: none;
-color: #4386bf;
-font-size: .875rem;
-font-weight: 300;
-align-items: center;
-cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  background-color: transparent;
+  border: none;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  align-items: center;
+  cursor: pointer;
 }
 
 .vertical-divider {
-  width: .125rem;
-height: 1.5rem;
-background-color: #e8e8e8;
-margin: 0 1rem;
+  width: 0.125rem;
+  height: 1.5rem;
+  background-color: #e8e8e8;
+  margin: 0 1rem;
 }
 
 .progress {
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 .progress-circle-container {
   width: 5.625rem;
-height: 5.625rem;
-padding: .63rem .625rem .75rem .75rem;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 5.625rem;
+  padding: 0.63rem 0.625rem 0.75rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .progress-circular {
   position: absolute;
-border-radius: 50%;
-width: 4.25rem;
-height: 4.25rem;
-border: 5px solid #307bbe;
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
   border-left-color: rgb(48, 123, 190);
-border-left-color: #e8e8e8;
--webkit-transform: rotate(45deg);
-transform: rotate(45deg);
+  border-left-color: #e8e8e8;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-.percentage, .status {
-  font-family: "Montserrat",sans-serif;
-color: #121212;
+.percentage,
+.status {
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
 }
 
 .percentage {
@@ -213,56 +214,56 @@ color: #121212;
 }
 
 .status {
-  font-size: .875rem;
-opacity: .5;
+  font-size: 0.875rem;
+  opacity: 0.5;
 }
 
 .vertical-bar-progress {
-  width: .125rem;
-height: 4.375rem;
-margin: 0 3.688rem 0 4.938rem;
-background-color: #e8e8e8;
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 0 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
 }
 
 .chapter-card {
   display: flex;
-flex-direction: column;
-gap: 20px;
-width: 14rem;
+  flex-direction: column;
+  gap: 20px;
+  width: 14rem;
 }
 
-.current-chapter, .chapter {
-  font-family: "Roboto Slab",serif;
-font-weight: 300;
-color: #121212;
+.current-chapter,
+.chapter {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #121212;
 }
 
 .current-chapter {
-  font-size: .813rem;
-opacity: .5;
-margin-top: .438rem;
-font-size: 1rem;
-letter-spacing: -.4px;
+  font-size: 0.813rem;
+  opacity: 0.5;
+  margin-top: 0.438rem;
+  letter-spacing: -0.4px;
 }
 
 .update-chapter-btn {
-  width:170px;
+  width: 170px;
   cursor: pointer;
-border: none;
-background-color: #0290ff;
-border-radius: 3px;
-padding: 8px 24px;
-font-family: "Roboto Slab",serif;
-font-weight: 300;
-letter-spacing: .5px;
-color: #fff;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
 }
 
 .end-of-book-lists-divider {
-  height: .125rem;
-background-color: #e8e8e8;
-width: 100%;
-margin: 2.5rem 0 1.813rem;
+  height: 0.125rem;
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 2.5rem 0 1.813rem;
 }
 
 /* Beginning of Add Book form */
@@ -271,25 +272,25 @@ margin: 2.5rem 0 1.813rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
- }
+}
 
 .form-title {
   font-size: 1.25rem;
-font-weight: 700;
-letter-spacing: -.18px;
-color: #888;
-text-align:left;
-padding-left: 98px;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  color: #888;
+  text-align: left;
+  padding-left: 98px;
 }
 
 .form {
   margin-top: 20px;
-display: flex;
-grid-gap: 32px;
-gap: 32px; 
-align-items: center;
-justify-content: space-around;
-padding: 0 27px;
+  display: flex;
+  grid-gap: 32px;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 27px;
 }
 
 .input-fields {
@@ -301,15 +302,16 @@ padding: 0 27px;
 
 .input {
   padding: 12px;
-border-radius: 4px;
-border: 1px solid #e8e8e8;
-background-color: #fff;
-font-size: 1rem;
-letter-spacing: -.15px;
-color: #121212;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  font-size: 1rem;
+  letter-spacing: -0.15px;
+  color: #121212;
 }
 
-.title-input, .author-input {
+.title-input,
+.author-input {
   width: 50%;
 }
 
@@ -319,18 +321,19 @@ color: #121212;
 
 .submit-btn {
   cursor: pointer;
-width: 10%;
-padding: 12px;
-border-radius: 3px;
-background-color: #0290ff;
-border: none;
-letter-spacing: .5px;
-color: #fff;
-font-size: .813rem;
-font-weight: 700;
-font-family: "Roboto Slab",serif;
+  width: 10%;
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
 }
 
-.form-title, .input {
-  font-family: "Montserrat",sans-serif;
+.form-title,
+.input {
+  font-family: "Montserrat", sans-serif;
 }
