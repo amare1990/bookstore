@@ -63,11 +63,6 @@ The objective of this `Bookstore` project milestone, `Styling` is to add CSS sty
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://amare1990.github.io/bookstore/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
