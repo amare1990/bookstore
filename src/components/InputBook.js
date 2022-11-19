@@ -35,14 +35,14 @@ const InputBook = () => {
             onChange={(e) => setTitle(e.target.value)}
             required
           />
-          <input
+          {/*  <input
             className="input input-author"
             type="text"
             placeholder="Author"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             required
-          />
+          /> */}
         </div>
         <select
           className="input category-options"
@@ -53,10 +53,11 @@ const InputBook = () => {
           onChange={(e) => setCategory(e.target.value)}
           placeholder="Category"
         >
-          <option value="action" disabled>Categories</option>
-          <option value="action">Action</option>
-          <option value="fiction">ScienceFiction</option>
-          <option value="science">Economy</option>
+          <option value="Category" selected>Category</option>
+          <option value="Action">Action</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Economy">Economy</option>
+          <option value="Computer Science">Computer Science</option>
 
         </select>
 

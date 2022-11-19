@@ -287,11 +287,10 @@
 .form {
   margin-top: 20px;
   display: flex;
-  grid-gap: 32px;
   gap: 32px;
   align-items: center;
   justify-content: space-around;
-  padding: 0 27px;
+  padding: 0 98px;
 }
 
 .input-fields {
@@ -311,18 +310,17 @@
   color: #121212;
 }
 
-.title-input,
-.author-input {
-  width: 50%;
+.input-title{
+  width: 400px;
 }
 
-.category-input {
-  width: 30%;
+.category-options {
+  width: 300px;
 }
 
 .submit-btn {
   cursor: pointer;
-  width: 10%;
+  width: 15%;
   padding: 12px;
   border-radius: 3px;
   background-color: #0290ff;

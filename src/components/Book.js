@@ -1,7 +1,12 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import deleteBook from '../redux/books/api/DeleteBook';
+// import Categories from './Categories';
 // import retrieveBooks from '../redux/books/api/RetrieveBook';
+
+// const checkStatusText = document.querySelector('.check-status-categories');
+// const bookCard = document.querySelector('.book-card');
+// bookCard.append(checkStatusText);
 
 const Book = () => {
   const bookArray = useSelector((state) => state.books);
