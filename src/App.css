@@ -39,12 +39,10 @@
 }
 
 .logo {
-  width: auto;
   height: 2.313rem;
   font-size: 1.875rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
+  font-style: normal; 
   line-height: normal;
   letter-spacing: normal;
   color: var(--azure);
@@ -143,21 +141,10 @@
   opacity: 0.5;
 }
 
-.book-author,
-.book-title {
-  font-family: "Roboto Slab", serif;
-}
-
 .book-title {
   margin-top: 0.188rem;
   font-size: 1.375rem;
   letter-spacing: -0.2px;
-}
-
-.book-author {
-  font-size: 0.875rem;
-  font-weight: 300;
-  color: #4386bf;
 }
 
 .btn {
