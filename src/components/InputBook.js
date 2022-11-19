@@ -23,30 +23,45 @@ const InputBook = () => {
     setCategory('');
   };
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
+    <div className="form-container">
+      <h2 className="form-title"> ADD NEW BOOK</h2>
+      <form onSubmit={handleSubmit} className="form">
+        <div className="input-fields">
+          <input
+            className="input input-title"
+            type="text"
+            placeholder="Book Title"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            required
+          />
+          {/*  <input
+            className="input input-author"
+            type="text"
+            placeholder="Author"
+            value={author}
+            onChange={(e) => setAuthor(e.target.value)}
+            required
+          /> */}
+        </div>
+        <select
+          className="input category-options"
           type="text"
-          placeholder="Book Title"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          required
-        />
-        <input
-          type="text"
-          placeholder="Author"
-          value={author}
-          onChange={(e) => setAuthor(e.target.value)}
-          required
-        />
-        <input
-          type="text"
-          placeholder="Category"
+          name="category"
           value={category}
+          id="catgory"
           onChange={(e) => setCategory(e.target.value)}
-          required
-        />
-        <button type="submit">Add Book</button>
+          placeholder="Category"
+        >
+          <option value="Category" selected>Category</option>
+          <option value="Action">Action</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Economy">Economy</option>
+          <option value="Computer Science">Computer Science</option>
+
+        </select>
+
+        <button type="submit" className="submit-btn">Add Book</button>
       </form>
     </div>
   );

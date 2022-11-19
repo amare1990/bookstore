@@ -18,7 +18,7 @@ const Categories = () => {
       >
         Check status
       </button>
-      <h1>
+      <h1 className="check-status-categories">
         {categoriesState}
       </h1>
     </>

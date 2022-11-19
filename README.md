@@ -1,43 +1,124 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Bookstore
+<div align="center">
 
-> The objective of this `Bookstore` project milestone, `Connect to API` is store book to the API, fetch books from the API and remove book both from the API and screen. The react component re-renders based on the sate change from the centrally stored `Redux store`. Redux is used to manage the state of the application and it stores the state in one place centrally. Again `createASyncThunk` thunk function is used to implement the three functionalities of API (posting, fetching, and removing a book).
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
+  <h3><b>Microverse README Template</b></h3>
 
-## Built With
-
-- Major languages: JavaScript.
-- Frameworks: React library, Redux.
-- Technologies used: Git, Github, Gitflow, linters, VS code, npm, etc.
+</div>
 
 
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-**You can clone `git clone https://github.com/amare1990/bookstore.git`, work on this repo, and contribute to this project freely using the command**
+
+# 📖 [Bookstore] <a name="about-project"></a>
+
+**[Bookstore]** 
+The objective of this `Bookstore` project milestone, `Styling` is to add CSS styles to the `Bookstore` project I have been doing for the last week. As this project, `Bookstore` is developed using react, react component re-renders based on the sate change from the centrally stored `Redux store`. Basically this project is a `react-redux` web application project where rendering is done using react components and the state of the application is centrally manged by the `Redux` stat-UI binding framework. Redux is used to manage the state of the application and it stores the state in one place centrally. Again `createASyncThunk` thunk function is used to implement the three functionalities of API (posting, fetching, and removing a book).
 
 
-To get a local copy up and running follow these simple example steps.
+## 🛠 Built With <a name="built-with">JavaScript</a>
+
+### Tech Stack <a name="tech-stack">Redux</a>
+### Tech Stack <a name="tech-stack">React</a>
+
+> React is used to render HTML elements.
+> Redux is used to manage the state of the project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+     <li><a href="https://redux.js.org">Redux</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+- **[Use the redux to manage the state of the application]**
+- **[Fetches and posts, and remove book using API (using createAsyncThunk method)]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
-You need to have `node`, `npm` installed in your pc.
+
+In order to run this project you need:
+
+- have installed npm, node.js, react-redux, react, @react-redux-toolkit. 
+- `sudo apt-get install git`.
+- `sudo apt-get install npm node.js`.
 
 ### Setup
-In the Github, use `Gitflow` workflow and create a development branch, make it default and then create another branch on which you are going to work.
+
+Clone this repository to your desired folder:
+
+- - Use `git clone https://github.com/amare1990/bookstore/tree/Styling` command to clone to your local machine.
+- USe `cd bookstore` to go to the root directory of the repository.
+- Use `npm start` inside the root directory to see the project in the local directory.
 
 ### Install
-Use `create-create-app .` to install the react inside this repository.
-Use `npm install react-redux @reduxjs/toolkit` to install redux and the ui binding library for the project already created using `create-create-app`
+
+Install this project with:
+- `npm i react-redux`.
+- `npm install @redux-toolkit`
 
 ### Usage
-In the root directory of the project, run `npm start` to see the project in the development mode.
+
+To run the project, execute the following command:
+
+- Use `npm start` command in your root directory of the project.
+
+### Run tests
+
+To run tests, run the following command:
+
+- Go to the root directory and use `npm test` command to run testing.
 
 ### Deployment
-Use  `npm run build` to build the project in the production mode. Then after, it will be ready to be deployed.
+
+You can deploy this project using:
+
+- First run `npm run build` in the repo root directory.
+- Run `netlify build` command and then check the necessary checks and eneter.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Authors
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Amare Kassa**
 
@@ -46,22 +127,59 @@ Use  `npm run build` to build the project in the production mode. Then after, it
 - LinkedIn: [LinkedIn](https://linkedin.com/in/amare-kassa-90)
 
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implementing popup windows to see comments and add comments for the book.**
+- [ ] **[Add functionality for the edit button in each book]**
+- [ ] **[Storing and fetching book data using Mysql database.]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/amare1990/bookstore/issues/).
+Feel free to check the [issues page](https://github.com/amare1990/bookstore/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
+If you like this project, feel free to clone it add features. Your contributions are welcome.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank Microverse Inc. to invest in me and have skills as Frontend developer.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ <a name="faq"></a>
+
+> Frequently asked questions
+
+- **Can I opt createAsyncThink method out?**
+
+  - Yes you can, but I recoomend you to use the `createAsyncThunk` method once you are adapted to using it.
+
+- **Why don't I use databases to store and fech book data**
+
+  - If you use JSON, you can transmit and manipulate using different programming languages and databases
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/amare1990/bookstore/.LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
