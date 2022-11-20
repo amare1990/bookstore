@@ -6,7 +6,7 @@ import createBook from '../redux/books/api/CreateBook';
 const InputBook = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-  const [category, setCategory] = useState('');
+  const [category, setCategory] = useState('Category');
 
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
@@ -51,9 +51,8 @@ const InputBook = () => {
           value={category}
           id="catgory"
           onChange={(e) => setCategory(e.target.value)}
-          placeholder="Category"
         >
-          <option value="Category" selected>Category</option>
+          <option value="Category" disabled>Category</option>
           <option value="Action">Action</option>
           <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
