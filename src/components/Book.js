@@ -1,25 +1,15 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import deleteBook from '../redux/books/api/DeleteBook';
-// import Categories from './Categories';
-// import retrieveBooks from '../redux/books/api/RetrieveBook';
-
-// const checkStatusText = document.querySelector('.check-status-categories');
-// const bookCard = document.querySelector('.book-card');
-// bookCard.append(checkStatusText);
 
 const Book = () => {
   const bookArray = useSelector((state) => state.books);
-  // console.log(bookArray);
   const dispatch = useDispatch();
 
   const handleRemove = (id) => {
     dispatch(deleteBook(id));
   };
-  /*  useEffect(() => {
-    dispatch(retrieveBooks(books));
-  }, [dispatch]); */
-  // books.map((book) => console.log(book));
+
   return (
     <>
       { bookArray.map((book) => (
@@ -68,9 +58,5 @@ const Book = () => {
 Book.defaultProps = {
   books: [],
 };
-
-/* Book.propTypes = {
-  books: Number,
-}; */
 
 export default Book;
