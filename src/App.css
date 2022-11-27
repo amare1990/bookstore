@@ -294,8 +294,13 @@
   color: #121212;
 }
 
-.input-title {
+.input-title,
+.input-author {
   width: 400px;
+}
+
+.input-author {
+  margin-top: 10px;
 }
 
 .category-options {

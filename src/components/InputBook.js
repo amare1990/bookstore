@@ -35,14 +35,14 @@ const InputBook = () => {
             onChange={(e) => setTitle(e.target.value)}
             required
           />
-          {/*  <input
+          <input
             className="input input-author"
             type="text"
             placeholder="Author"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             required
-          /> */}
+          />
         </div>
         <select
           className="input category-options"
